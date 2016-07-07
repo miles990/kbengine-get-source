@@ -1,6 +1,6 @@
 FROM miles990/alpine-kbengine-build-tools
 
-MAINTAINER AlexLee <alexlee7171@gmail.com>
+MAINTAINER AlexLee <alexlee7171@gmail.com> 
 
 RUN git clone https://github.com/kbengine/kbengine.git && \
 	chmod -R 755 /kbengine
